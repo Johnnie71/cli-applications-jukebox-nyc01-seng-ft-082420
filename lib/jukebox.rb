@@ -27,6 +27,6 @@ def play(songs)
   
   if number < 0 && songs.include?(input)
     index = songs.index(input)
-    puts "Playing #{songs[index]"
+    puts "Playing #{songs[index]}"
   end
 end
