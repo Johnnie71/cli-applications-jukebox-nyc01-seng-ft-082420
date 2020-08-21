@@ -22,6 +22,6 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  gets.strip
+  user_input = gets.strip
   
 end
