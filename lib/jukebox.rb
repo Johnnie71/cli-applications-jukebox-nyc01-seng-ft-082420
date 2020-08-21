@@ -28,5 +28,8 @@ def play(songs)
   if number < 0 && songs.include?(input)
     index = songs.index(input)
     puts "Playing #{songs[index]}"
+  elsif number >= 0 && songs[number] != nil
+    puts "Playing #{songs[number]}"
+    
   end
 end
