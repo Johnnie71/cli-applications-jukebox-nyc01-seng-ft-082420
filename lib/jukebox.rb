@@ -25,5 +25,5 @@ def play(songs)
   input = gets.strip
   number = input.to_i - 1 
   
-  
+  if number < 0 
 end
