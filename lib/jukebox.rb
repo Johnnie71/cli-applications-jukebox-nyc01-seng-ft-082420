@@ -26,6 +26,6 @@ def play(songs)
   number = input.to_i - 1 
   
   if number < 0 && songs.include?(input)
-    
+    index = songs.
   end
 end
