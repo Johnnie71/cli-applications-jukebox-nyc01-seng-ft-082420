@@ -37,14 +37,14 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   choice = gets.strip
-  valid = false
+  # valid = false
   songs.each_with_index do |song, index|
     if (choice.to_i - 1 == index)
       puts "Playing #{songs[index]}"
-      valid = true
+      # valid = true
     elsif (choice == song)
       puts "Playing #{choice}"
-      valid = true
+      # valid = true
     end
   end
   puts "Invalid input, please try again" if valid == false
